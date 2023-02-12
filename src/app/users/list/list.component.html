@@ -1,0 +1,8 @@
+<h4>User List</h4>
+
+<div class="userInfo" *ngFor="let user of users">
+  <span>id: {{ user.id }}</span>
+  <span>name: {{ user.name }} </span>
+  <span>email: {{ user.email }}</span>
+  <button (click)="deleteUser(user.id)">delete</button>
+</div>

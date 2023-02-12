@@ -1,0 +1,19 @@
+<h2>Create New User</h2>
+
+<div>
+  <div>
+    <label for="">name</label>
+    <input type="text" [(ngModel)]="username" />
+  </div>
+
+  <div>
+    <label for="">email</label>
+    <input type="email" [(ngModel)]="email" />
+  </div>
+
+  <div>
+    <label for="">password</label>
+    <input type="password" [(ngModel)]="password" />
+  </div>
+  <button (click)="create()">create</button>
+</div>

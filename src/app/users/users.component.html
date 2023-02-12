@@ -1,0 +1,22 @@
+<h2>users page</h2>
+<div>
+  <li><a [routerLink]="['/users']">list</a></li>
+  <li><a [routerLink]="['/users', 'create']">create</a></li>
+</div>
+<hr />
+
+<router-outlet></router-outlet>
+<!-- <div>
+
+  <ul>
+    <li><a [routerLink]=["/users", ""]>list</a></li>
+  </ul>
+  <button>create user</button>
+</div>
+
+<h4>User List</h4>
+
+<div class="userInfo" *ngFor="let user of users">
+  <span>name: {{ user.name }} </span>
+  <span>email: {{ user.email }}</span>
+</div> -->
